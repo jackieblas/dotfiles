@@ -1,9 +1,20 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_cclip:xclip\x20\x2dselection\x20clipboard
+SETUVAR _fish_abbr_cp:cp\x20\x2dr
 SETUVAR _fish_abbr_dotfiles:/usr/bin/git\x20\x2d\x2dgit\x2ddir\x3d/home/jackie/\x2edotfiles\x20\x2d\x2dwork\x2dtree\x3d/home/jackie
-SETUVAR _fish_abbr_lsa:ls\x20\x2da
+SETUVAR _fish_abbr_fish__config:code\x20/home/jackie/\x2econfig/fish/config\x2efish
+SETUVAR _fish_abbr_ls:ls\x20\x2dlh
+SETUVAR _fish_abbr_lsa:ls\x20\x2dlah
 SETUVAR _fish_abbr_manjaro__usb:sudo\x20dd\x20bs\x3d4M\x20if\x3dmanjaro\x2eiso\x20of\x3d/dev/sdX\x20status\x3dprogress\x20oflag\x3dsync
+SETUVAR _fish_abbr_mkdir:mkdir\x20\x2dp
+SETUVAR _fish_abbr_mv:mv\x20\x2dv
+SETUVAR _fish_abbr_prompt:code\x20/home/jackie/\x2econfig/fish/functions/fish_prompt\x2efish
+SETUVAR _fish_abbr_public__ip:curl\x20\x2ds\x20icanhazip\x2ecom
+SETUVAR _fish_abbr_refresh:source\x20/home/jackie/\x2econfig/fish/config\x2efish
+SETUVAR _fish_abbr_rm:rm\x20\x2drf
+SETUVAR _fish_abbr_scp:scp\x20\x2dr
 SETUVAR fish_color_autosuggestion:969896
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:b294bb
